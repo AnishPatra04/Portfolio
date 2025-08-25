@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #ffffff; /* plain white */
+  color: #333333f0;
+  line-height: 1.6;
+}
+
+header {
+  background: #2d3d86; /* keep original color */
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  border-radius: 0; /* simpler */
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 850px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px; /* slightly rounded */
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #ddd; /* simple border */
+}
+
+.profile h2 {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border-left: 3px solid #867a2d; /* simpler border */
+  padding-left: 6px;
+  color: #444;
+}
+
+.about p,
+.address p,
+.hobbies li {
+  font-size: 1rem;
+  color: #444;
+}
+
+.hobbies ul {
+  list-style: none;
+}
+
+.hobbies li {
+  margin-bottom: 6px;
+}
